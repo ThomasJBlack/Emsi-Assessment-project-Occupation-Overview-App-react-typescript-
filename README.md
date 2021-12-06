@@ -8,10 +8,10 @@ In the project directory, you can run:
 
 ### `npm install`
 
-### `npm i --save-dev @types/styled-components` this will resolve a typescript error when attempting to run the app
-
-
 ### `npm start`
+
+If there is a dependency error its because my chart library requires an older version.
+To resolve that run `npm i --save-dev @types/styled-components` and then `npm start`. Hopefully this will not be necesary.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
